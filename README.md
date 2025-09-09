@@ -1,13 +1,15 @@
 # 🎬 Movie Recommendation System
 
-This is a **content-based movie recommendation system** built using Python. It suggests similar movies based on genre and overview using **TF-IDF** and **cosine similarity**.
+This project is a Content-Based Movie Recommendation System designed to suggest movies similar to a user-selected movie based on their metadata such as genres and overview descriptions. Unlike collaborative filtering, which relies on user ratings, this system focuses on the content attributes of movies to generate recommendations.
 
-## 🚀 Features
+## Concepts Used
 
-- Content-based filtering
-- TF-IDF vectorization on genres + overview
-- Cosine similarity to find similar movies
-- Returns top 5 similar movies for a given title
+- **Content-Based Filtering:** Recommending items similar to a given item based on its features.
+- **Data Preprocessing:** Cleaning and preparing data, handling missing values, and combining relevant features.
+- **TF-IDF Vectorization:** Converting text data into numerical vectors that reflect the importance of words.
+- **Cosine Similarity:** Measuring similarity between two vectors to find how alike two movies are.
+- **Natural Language Processing (NLP):** Processing movie descriptions and genres to extract meaningful features.
+- **Machine Learning Basics:** Using vector representations and similarity measures to build a recommendation engine.
 
 ## 🔗 Deployment Link
 
@@ -24,3 +26,4 @@ This is a **content-based movie recommendation system** built using Python. It s
 ## 📊 Dataset Source
 
 [TMDB 5000 Movie Dataset – Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
