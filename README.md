@@ -2,6 +2,18 @@
 
 This project is a Content-Based Movie Recommendation System designed to suggest movies similar to a user-selected movie based on their metadata such as genres and overview descriptions. Unlike collaborative filtering, which relies on user ratings, this system focuses on the content attributes of movies to generate recommendations.
 
+## ✨ Features
+
+- Content-based movie recommendations  
+- Uses genres and descriptions  
+- TF-IDF vectorization for text data  
+- Cosine similarity for finding similar movies  
+- Handles missing data  
+- Returns top 5 recommendations  
+- Simple movie title input  
+- Easily extendable  
+
+
 ## Concepts Used
 
 - **Content-Based Filtering:** Recommending items similar to a given item based on its features.
@@ -26,4 +38,5 @@ This project is a Content-Based Movie Recommendation System designed to suggest 
 ## 📊 Dataset Source
 
 [TMDB 5000 Movie Dataset – Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+
 
