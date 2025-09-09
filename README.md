@@ -1,50 +1,32 @@
-# 🎬 Movie Recommendation System | Content-Based Filtering
+# 🎬 Movie Recommendation System
 
-Welcome to a simple yet powerful **Movie Recommendation System** that suggests movies similar to your favorites! Built using Python, this project uses **content-based filtering** to analyze genres and descriptions and recommends top 5 similar movies using **TF-IDF** and **cosine similarity**.
+A **content-based movie recommendation system** that suggests movies similar to a user-selected title by analyzing movie metadata such as genres and overview descriptions. This project uses natural language processing techniques like TF-IDF vectorization and cosine similarity to find and recommend the top 5 most similar movies.
 
-## 🚀 Project Overview
+## 🧠 Concepts Used
 
-This project demonstrates how to build a **Content-Based Movie Recommender** using metadata from the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).  
-It works by comparing the **genre** and **overview** of movies to find the most similar titles.
+- **Content-Based Filtering:** Recommending movies similar to a selected movie based on their attributes (genres, overview).
+- **Text Preprocessing:** Cleaning and combining movie metadata for analysis.
+- **TF-IDF Vectorization:** Converting text into numerical vectors that reflect the importance of words.
+- **Cosine Similarity:** Measuring the similarity between movie vectors to find close matches.
+- **Natural Language Processing (NLP):** Extracting meaningful features from movie descriptions.
+
 
 ## ✨ Features
 
-- Content-based movie recommendations  
-- Uses genres and descriptions  
-- TF-IDF vectorization for text data  
-- Cosine similarity for finding similar movies  
-- Handles missing data  
-- Returns top 5 recommendations  
-- Simple movie title input  
-- Easily extendable  
+- Recommends movies based on content similarity rather than user ratings.
+- Uses both genres and movie overview text for more accurate recommendations.
+- Handles missing data gracefully.
+- Provides top 5 similar movie recommendations.
+- Interactive dropdown for movie selection.
+- Built with Streamlit for easy web deployment.
 
-## 🧠 What You’ll get to see
+## 🌐 Deployment
 
-- 📌 Text Preprocessing
-- 📌 TF-IDF Vectorization
-- 📌 Cosine Similarity
-- 📌 Content-Based Filtering Techniques
-- 📌 Movie Recommendation Logic
+Check out the live app here:  
+[https://monalisa0105-movie-recommendation-system-app-ke9ign.streamlit.app/](https://monalisa0105-movie-recommendation-system-app-ke9ign.streamlit.app/)
 
-## 🗃️ Files in This Repository
 
-| File Name              | Description                                  |
-|------------------------|----------------------------------------------|
-| `recommend.py`         | Main Python script to run the recommender    |
-| `tmdb_5000_movies.csv` | Movie metadata dataset (from Kaggle)         |
-| `README.md`            | This file – complete project documentation   |
+## 📊 Dataset
 
-## 📊 Dataset Used
+The recommendations are powered by the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle.
 
-- **Name**: TMDB 5000 Movie Dataset  
-- **Source**: [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)  
-- **File Used**: `tmdb_5000_movies.csv`
-
----
-
-## ⚙️ How to Run This Project
-
-1. ✅ **Install Required Libraries**
-
-```bash
-pip install pandas scikit-learn
