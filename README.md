@@ -30,3 +30,9 @@ Check out the live app here:
 
 The recommendations are powered by the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle.
 
+| File Name              | Description                                  |
+|------------------------|----------------------------------------------|
+| `recommend.py`         | Main Python script to run the recommender    |
+| `tmdb_5000_movies.csv` | Movie metadata dataset (from Kaggle)         |
+| `README.md`            | This file – complete project documentation   |
+
